@@ -6,7 +6,7 @@
 
 api来源自豆瓣官方api，详情请戳[豆瓣电影api](https://developers.douban.com/wiki/?title=movie_v2)
 
-> **2019.04.03 更新: 由于时间原因，本项目已经不在线上维护，感兴趣的同学可以自行clone到本地部署。同时随着Vue的升级，项目中一些用到的 api 或解决方案对现在来说可能已经有些陈旧，因此项目仅提供思路上实现的参考，谢谢支持**
+
 
 ## 线上体验
 
@@ -27,8 +27,7 @@ chrome浏览器下的iphone5/6/6 plus体验效果更佳
 ## 项目运行
 
 clone项目源码
-```
-git clone https://github.com/buptsky/vue-douban-movie.git
+
 ```
 安装依赖
 ```
