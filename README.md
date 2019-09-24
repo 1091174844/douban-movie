@@ -30,24 +30,6 @@ npm run dev
 #### 运行环境
 node 6+ npm 4+
 
-
-## 部分效果演示
-### 上映电影信息和电影详情
-
-![image](https://github.com/buptsky/vue-douban-movie/raw/master/screenshots/movie-show.gif)
-![image](https://github.com/buptsky/vue-douban-movie/raw/master/screenshots/detail.gif)
-
-### 排行和影人
-
-![image](https://github.com/buptsky/vue-douban-movie/raw/master/screenshots/rank.gif)
-![image](https://github.com/buptsky/vue-douban-movie/raw/master/screenshots/celebrity.gif)
-
-### 搜索和收藏
-
-![image](https://github.com/buptsky/vue-douban-movie/raw/master/screenshots/search.gif)
-![image](https://github.com/buptsky/vue-douban-movie/raw/master/screenshots/collect.gif)
-
-## 项目描述
 ### 技术栈
 - vue2.0 + vue-router + vuex：vue全家桶
 - axios：用于ajax请求
