@@ -7,13 +7,6 @@
 api来源自豆瓣官方api，详情请戳[豆瓣电影api](https://developers.douban.com/wiki/?title=movie_v2)
 
 
-
-## 线上体验
-
-#### PC访问
-
-[豆瓣电影webapp](http://59.110.140.119:8080)
-
 打开浏览器进入开发者模式，选择移动端视口
 
 chrome浏览器下的iphone5/6/6 plus体验效果更佳
