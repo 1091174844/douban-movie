@@ -6,15 +6,29 @@
 
 api来源自豆瓣官方api，详情请戳[豆瓣电影api](https://developers.douban.com/wiki/?title=movie_v2)
 
+> **2019.04.03 更新: 由于时间原因，本项目已经不在线上维护，感兴趣的同学可以自行clone到本地部署。同时随着Vue的升级，项目中一些用到的 api 或解决方案对现在来说可能已经有些陈旧，因此项目仅提供思路上实现的参考，谢谢支持**
+
+## 线上体验
+
+#### PC访问
+
+[豆瓣电影webapp](http://59.110.140.119:8080)
 
 打开浏览器进入开发者模式，选择移动端视口
 
 chrome浏览器下的iphone5/6/6 plus体验效果更佳
 
+#### 移动端访问
+
+打开手机浏览器扫描下方二维码或访问上面的地址，推荐全屏模式下体验
+
+![image](https://github.com/buptsky/vue-douban-movie/raw/master/screenshots/qrcode.png)
+
 ## 项目运行
 
 clone项目源码
-
+```
+git clone https://github.com/buptsky/vue-douban-movie.git
 ```
 安装依赖
 ```
@@ -30,6 +44,24 @@ npm run dev
 #### 运行环境
 node 6+ npm 4+
 
+
+## 部分效果演示
+### 上映电影信息和电影详情
+
+![image](https://github.com/buptsky/vue-douban-movie/raw/master/screenshots/movie-show.gif)
+![image](https://github.com/buptsky/vue-douban-movie/raw/master/screenshots/detail.gif)
+
+### 排行和影人
+
+![image](https://github.com/buptsky/vue-douban-movie/raw/master/screenshots/rank.gif)
+![image](https://github.com/buptsky/vue-douban-movie/raw/master/screenshots/celebrity.gif)
+
+### 搜索和收藏
+
+![image](https://github.com/buptsky/vue-douban-movie/raw/master/screenshots/search.gif)
+![image](https://github.com/buptsky/vue-douban-movie/raw/master/screenshots/collect.gif)
+
+## 项目描述
 ### 技术栈
 - vue2.0 + vue-router + vuex：vue全家桶
 - axios：用于ajax请求
@@ -165,3 +197,4 @@ better-scroll的github地址戳:[better-scroll](https://github.com/ustbhuangyi/b
 │  └─store                    // vuex状态管理
 └─static
 ```
+
